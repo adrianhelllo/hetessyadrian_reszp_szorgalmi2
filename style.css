@@ -1,0 +1,83 @@
+#csalan {
+    background-color: mediumspringgreen;
+    border: 10px solid rgb(0, 139, 86)
+}
+
+#levendula {
+    background-color: plum;
+    border: 10px solid rgb(189, 125, 189)
+}
+
+#gyomber {
+    background-color: rgb(240, 227, 43);
+    border: 10px solid rgb(163, 154, 28);
+}
+
+#kamilla {
+    background-color: rgb(248, 248, 248);
+    border: 10px solid rgb(255, 240, 174);
+}
+
+.tarolo {
+    border: 10px solid rgb(117, 166, 182);
+    padding: 10px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(173, 216, 230);
+    background-image: url(kepek/fohatter.png);
+}
+
+.tarolo div {
+    background-image: url(kepek/divhatter.png);
+    border-radius: 10vh;
+    padding: 50px;
+
+}
+
+body {
+    background-image: url(kepek/fohatter.png);
+    background-color: lightgoldenrodyellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 100px;
+}
+
+div {
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 100px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+#h1div {
+    text-align: center;
+    margin: auto;
+    font-size: 3.5vw;
+    border-radius: 5vh;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.tarolo div article h2 {
+    border: 10px dashed black;
+    border-radius: 5vh;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10vh;
+    margin: auto;
+    width: 100%
+}
+
+* {
+    box-sizing: border-box
+}
