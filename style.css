@@ -18,8 +18,9 @@
     border: 10px solid rgb(255, 240, 174);
 }
 
-.tarolo {
+#tarolo {
     border: 10px solid rgb(117, 166, 182);
+    border-radius: 10vh;
     padding: 10px;
     display: grid;
     margin: auto;
@@ -28,11 +29,29 @@
     background-image: url(kepek/fohatter.png);
 }
 
-.tarolo div {
+#tarolo div {
     background-image: url(kepek/divhatter.png);
     border-radius: 10vh;
     padding: 50px;
 
+}
+
+#linkek {
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 10px solid rgb(117, 166, 182);
+    border-radius: 10vh;
+    background-color: rgb(173, 216, 230);
+    background-image: url(kepek/fohatter.png);
+    margin-bottom: 5vh;
+}
+
+#linkek a {
+    font-size: 2vw;
+    border: 10px solid rgb(252, 149, 252);
+    border-radius: 3vh
 }
 
 body {
@@ -43,8 +62,8 @@ body {
 }
 
 div {
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 100px;
 }
 
