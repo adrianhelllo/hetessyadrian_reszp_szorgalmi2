@@ -40,7 +40,7 @@
     text-align: center;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border: 10px solid rgb(117, 166, 182);
     border-radius: 10vh;
     background-color: rgb(173, 216, 230);
@@ -51,7 +51,11 @@
 #linkek a {
     font-size: 2vw;
     border: 10px solid rgb(252, 149, 252);
-    border-radius: 3vh
+    border-radius: 4vh;
+    padding: 50px;
+    background-color: rgb(255, 184, 255);
+    color: black;
+    margin: auto;
 }
 
 body {
@@ -85,7 +89,7 @@ h2 {
     font-size: 3vw;
 }
 
-.tarolo div article h2 {
+.tarolo h2 {
     border: 10px dashed black;
     border-radius: 5vh;
     padding: 10px;
@@ -100,3 +104,24 @@ img {
 * {
     box-sizing: border-box
 }
+
+@media screen and (max-width: 1300px) {
+    #tarolo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #linkek {
+        grid-template-columns: 1fr;
+    }
+
+    #linkek a {
+        padding: 50px;
+
+        padding-left: 5em;
+        padding-right: 5em
+    }
+}
+
+
