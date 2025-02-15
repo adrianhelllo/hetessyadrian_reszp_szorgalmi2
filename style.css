@@ -82,6 +82,7 @@ p {
     font-size: 3.5vw;
     border-radius: 5vh;
     background-color: white;
+    border: 10px dashed black;
 }
 
 h2 {
